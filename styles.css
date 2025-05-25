@@ -54,6 +54,10 @@
   --border: #725400;
 }
 
+body {
+  background-color: #000;
+}
+
 .cart-body {
   position: relative;
   display: grid;
@@ -151,9 +155,9 @@
   height: 154px;
   background-color: var(--secondary);
   top: 130.5px;
-  right: 235px;
+  right: 0px;
   border-top: 1.05px solid var(--border);
-  border-right: 1.05px solid var(--border);
+  border-left: 1.05px solid var(--border);
 }
 
 .side-notch__l {
@@ -162,9 +166,9 @@
   height: 154px;
   background-color: var(--secondary);
   top: 130.5px;
-  left: 235px;
+  left: 0px;
   border-top: 1.05px solid var(--border);
-  border-left: 1.05px solid var(--border);
+  border-right: 1.05px solid var(--border);
 }
 
 .side-text__r {
@@ -187,7 +191,7 @@
   letter-spacing: 1px;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  top: 120px;
+  top: 110px;
   left: 205px;
   font-weight: 900;
 }
